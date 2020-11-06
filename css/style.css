@@ -1,0 +1,39 @@
+
+
+.board{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+    width: 500px;
+    background: gray;
+    padding: 10px;
+}
+
+.field{
+
+    height: 150px;
+    width: 150px;
+    background: white;
+    text-align: center;
+    font-size: 130px;
+    cursor: pointer;
+}
+
+.field.Red{
+
+    background: red;
+    color: white;
+}
+
+.field.Blue{
+    
+    background: blue;
+    color: yellow;
+}
+
+#stateText{
+    width: 500px;
+    text-align: center;
+}
